@@ -1,0 +1,25 @@
+/* landing page style sheet */
+body {
+    margin: 0px 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.block1,
+.block2,
+.block3,
+.block4 {
+    flex: 1;
+}
+
+.header,
+.block1,
+.footer { 
+  background-color: #1F2937;
+}
+
+.block3 {
+  background-color: #E5e7eb;
+}
