@@ -20,6 +20,25 @@ body {
   background-color: #1F2937;
 }
 
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.headerlinks {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+}
+
 .block3 {
   background-color: #E5e7eb;
 }
