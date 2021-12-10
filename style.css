@@ -12,6 +12,7 @@ body {
 .block3,
 .block4 {
     flex: 1;
+
 }
 
 .header,
@@ -41,6 +42,32 @@ body {
 
 .block1 {
   padding: 20px 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.bigtext {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8; 
+}
+
+.smalltext {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.button {
+    background-color: #3882f6;
+}
+
+.image {
+    height: 200px;
+    width: 800px;
+    background-color: grey;
+    color: ivory;
+    padding: 40px 20px;
+    
 }
 
 .block2 {
