@@ -83,6 +83,7 @@ body {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  padding-bottom: 40px;
 }
 
 .tinypics {
@@ -106,6 +107,8 @@ body {
 
 .imgdesc {
     text-align: center;
+    inline-size: 150px;
+    overflow-wrap: break-word;
 }
 
 .block3 {
