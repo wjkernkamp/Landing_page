@@ -148,13 +148,16 @@ body {
 }
 
 .block4 {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .callblock {
   background-color: #3882f6;
   margin: 60px 90px;
   padding: 40px 60px;
+  width: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
