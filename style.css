@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 
@@ -41,7 +42,7 @@ body {
 }
 
 .block1 {
-  padding: 20px 80px;
+  padding: 120px 80px;
   display: flex;
   gap: 20px;
 }
@@ -75,7 +76,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px 80px;
+  padding: 120px 80px;
 }
 
 .info {
@@ -96,7 +97,9 @@ body {
 }
 
 .img {
-    background-color: red;
+    border-width: 15px;
+    border-color: #3882f6;
+    border-style: double;
     height: 150px;
     width: 150px;
 }
@@ -107,6 +110,26 @@ body {
 
 .block3 {
   background-color: #E5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  inline-size: 900px;
+  overflow-wrap: break-word;
+}
+
+.quotee {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
 }
 
 .block4 {
